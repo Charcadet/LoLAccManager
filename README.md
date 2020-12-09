@@ -27,6 +27,7 @@ To run this program you will need a valid Riot Developer API key which you can r
 ## Are the passwords encrypted?
 
 TL;DR: Currently not.
+
 The original plan was to add AES256 & SHA256 password encryption using the System.Security.Cryptography import. However as mentioned earlier I lost source code to this project and didn't continue it because of that. 
 
 
