@@ -29,12 +29,13 @@ To run this program you will need a valid Riot Developer API key which you can r
 
 TL;DR: Currently not.
 
+
 The original plan was to add AES256 & SHA256 password encryption using the System.Security.Cryptography import. However as mentioned earlier I lost source code to this project and didn't continue it because of that. 
 
 
 ## Disclaimer
 
-LoLAccManager isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. League of Legends © Riot Games, Inc. We are in no way affiliated with, associated with or endorsed by Riot Games, Inc
+LoLAccManager isn’t endorsed by Riot Games and doesn’t reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends. League of Legends and Riot Games are trademarks or registered trademarks of Riot Games, Inc. and League of Legends © Riot Games, Inc. LoLAccManager are in no way affiliated with, associated with or endorsed by Riot Games, Inc
 
 ##
 ![UI screenshot](https://i.imgur.com/I8CDcwH.png)
