@@ -16,6 +16,7 @@ I decompiled the .exe using ILSpy which created a pretty readable project noneth
 You start off by adding an account by pressing the "Add account" button.
 Which will present you the following form: 
 ![Add Account form](https://i.imgur.com/p82o4VP.png)
+
 After adding your account the program stores it in a .json file and uses the Riot Games API to request the current rank and LP of the account (https://developer.riotgames.com/apis)
 
 It will instantly show your accounts ingame name and the rank + points in that rank.
