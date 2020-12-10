@@ -50,16 +50,16 @@ namespace LoLAccManager
 		{
 			List<Account> list = new List<Account>();
 			StreamReader streamReader = new StreamReader("apikey.txt");
-			string text;
-			while ((text = streamReader.ReadLine()) != null)
-			{
-				if (text.StartsWith("RiotDevAPIKey:"))
-				{
-					_ = text.Split(':')[1];
-				}
-			}
-			string key = text;
-			JArray jArray = new JArray();
+            		string text;
+            		while ((text = streamReader.ReadLine()) != null)
+            		{
+              		  if (text.StartsWith("RiotDevAPIKey:"))
+               		 {
+                  		  text = text.Split(':')[1];
+                 		  break;
+               			 }
+          		  }
+            string key = text;
 			using (StreamReader reader = File.OpenText("accountData.json"))
 			{
 				using JsonTextReader reader2 = new JsonTextReader(reader);
