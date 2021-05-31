@@ -1,3 +1,7 @@
+# THIS PROJECT HAS BEEN CONTINUED ELSEWHERE
+# CHECK IT OUT HERE: https://github.com/ricozyx/LoL-Account-Manager
+
+----
 # LoLAccManager
 
 ![This is the README's header image :)](https://i.imgur.com/RXx32Yh.png)
